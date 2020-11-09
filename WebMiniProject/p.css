@@ -1,0 +1,404 @@
+
+            .lbody1{
+               background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQUM1-359gbnJaFLJ_Aa9ebMrPIdstJQ3T4yX7wNdGVNU8pj8X5w&s");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .linput1{
+                width:20%;
+                height: 4%;
+            }
+            .limage1{
+                width: 200px;
+                height: 70px;
+            }
+            .limage2{
+                width: 20%;
+                height: 30%;
+            }
+            .la1{
+                color: white;
+                font-size: 20pt;
+                
+            }
+            
+            .lul1 {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                
+                background-color: rgb(40,40,40);
+            }
+
+            .lli1 {
+                float: right;
+            }
+
+            .lli1 a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+
+            .lli1 a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .sbody2{
+                background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQUM1-359gbnJaFLJ_Aa9ebMrPIdstJQ3T4yX7wNdGVNU8pj8X5w&s");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .sinput1{
+                width:20%;
+                height: 4%;
+            }
+            .simage1{
+                width: 200px;
+                height: 70px;
+            }
+            .simage2{
+                width: 20%;
+                height: 30%;
+            }
+            .sa{
+                color: white;
+                font-size: 20pt;
+                
+            }
+            
+            .sul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                
+                background-color: rgb(40,40,40);
+            }
+
+            .sli {
+                float: right;
+            }
+
+            .sli a { 
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+
+            .sli a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+            .sli a.active {
+                color: white;
+                background-color: #4CAF50;
+            }
+            .sinput2{
+                width:30%;
+                height: 6%;
+	           font-size:120%;
+                border-radius: 25px 25px 25px 25px;
+                text-align: center;
+            }
+            .simage3{
+                width: 200px;
+                height: 50px;
+            }
+            
+    
+
+          
+            
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bbody {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bheader {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+.bsection {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+
+.bfooter {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+    padding-bottom: 100%;
+    
+}
+    .bbutton{
+        width: 20%;
+        height: 50%;
+    }
+    .blabel1{
+        width: 30%;
+        height: 30%;
+    }
+    .binput0{
+        width: 10%;
+        height:10%;
+       
+    }
+
+
+@media (max-width: 600px) {
+  .section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+            .bul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                
+                background-color: rgb(40,40,40);
+            }
+
+            .bli {
+                float: right;
+            }
+
+            .bli a { 
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+
+            li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+            .ba{
+                color: white;
+                font-size: 20pt;
+                
+            }
+    .broomimg{
+        width: 500px;
+        height: 400px;
+        padding-left: 10%;
+        padding-top: 10%;
+      
+       
+    }
+    .bbookimg{
+       width: 400px;
+        height: 100px;
+        padding-left: 20%;
+        align-items: center;
+    }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .abody2{
+               background-image:url("https://img.freepik.com/free-vector/metallic-textured-background_53876-89254.jpg?size=626&ext=jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .ainput2{
+                width:20%;
+                height: 4%;
+            }
+            .aimage3{
+                width: 230px;
+                height: 50px;
+                padding-left: 50px;
+                padding-top: 10px;
+                
+            }
+            
+            .aa{
+                color: white;
+                font-size: 20pt;
+                
+            }
+            
+            .aul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                
+                background-color: rgb(40,40,40);
+            }
+
+            .ali {
+                float: right;
+            }
+
+            .ali a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+
+            .ali a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+

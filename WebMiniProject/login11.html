@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+            <div class="col-x1-12 col-lg-12">
+                <h2>Login Here</h2>
+            </div>
+                <form method="post" action="con1.php">
+                <div class="form-group">
+                    <label>Email-ID</label><br>
+                    <input type="text" name="username" placeholder="Enter Email" required/><br>
+                </div>
+                <div class="form-group">
+                    <label>Password</label><br>
+                    <input type="password" name="password" placeholder="Enter Password"/><br>
+                </div><br>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+        </div>
+        <div class="col-xl-6 col-md-6">
+            <div class="login-form border p-4 mb-4 rounded">
+                <h2 class=border-bottom mb-4 pb-2>Registration Form</h2>
+                <form>
+                    <div>
+                        <label>Name</label><br>
+                        <input type="text" name="uname" placeholder="Enter Name" required><br>
+                    </div>
+                    <div>
+                        <label>Email-ID</label><br>
+                        <input type="email" name="email" placeholder="Enter Email-Id.." required><br>
+                    </div>
+                    <div>
+                        <label>Password</label><br>
+                        <input type="password" name="pass" placeholder="Enter Password" required><br>
+                    </div>
+                    <div>
+                        <label>Confirm Password</label><br>
+                        <input type="password" name="cpass" placeholder="Enter Name" required><br>
+                    </div><br>
+                    <button class="btn btn-primary" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

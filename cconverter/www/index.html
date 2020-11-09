@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <script> 
+           
+            function abc(obj)
+            {
+                 var x=document.getElementById("id1").value;
+                 var y=document.getElementById("s1").value;
+                 if(y=="d")
+                     {
+                         document.getElementById("id2").value=x*71.65;
+                     }
+                 if(y=="e")
+                     {
+                         document.getElementById("id2").value=x*79.52;
+                     }
+                 if(y=="f")
+                     {
+                         document.getElementById("id2").value=x*87.85;
+                     }
+                 if(y=="g")
+                     {
+                         document.getElementById("id2").value=x*0.67;
+                     }
+            }
+        </script>
+    </head>
+    <center><body style="background-image:url(img/curconv.jpg); background-position: right; background-repeat: no-repeat; background-size: cover">
+        <label><b style="font-size: 30"> Enter the Value to convert</b></label>
+        <input id="id1"type="number"><br><br>
+        <label><b style="font-size: 30"> Select option to convert into</b></label>
+        <select id="s1" onclick="abc()" style="font-size: 30">
+             <option></option>
+             <option value="d">Dollar</option>
+             <option value="e">Euro</option>
+             <option value="f">pound</option>
+             <option value="g">yen</option>
+        </select><br><br>
+        <label style="font-size: 30">Currency in INR</label>
+        <input id="id2" type="number"disabled><br><br>
+        
+    </body></center>
+</html>

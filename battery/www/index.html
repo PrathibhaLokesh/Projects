@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>battery</title>
+    </head>
+    <script>
+        function checkbattery()
+        {
+            window.addEventListener("batterystatus", onBatteryStatus);
+        }
+        function onBatteryStatus(info)
+        {
+            alert("Hello");
+            alert("Level: "+info.level +"isPlugged: "+info.isPlugged);
+        }
+    </script>
+    <body>
+        <button onclick="checkbattery()">Battery Status</button>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        button
+        {
+            width:100%;
+            height: 100%;
+            font-size: 40;
+            text-shadow: 1px 1px 2px coral,0 0 100px burlywood,0 0 15px wheat;
+            border-bottom-right-radius: 20%;
+        
+        }
+        table
+        {
+            width:100%;
+            height:100%;
+          
+        }
+        td
+        {
+            font-size: 40;
+            background-color:wheat;
+        }
+        #myid
+        {
+            background-color:coral;
+        }
+        #myid1
+        {
+            background-color:burlywood;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <table >
+       <tr>
+            <td id="id1" colspan="4" >0</td>
+       </tr>
+       <tr>
+            <td colspan="3"><button id="myid1" onclick="abc(this)">AC</button></td>
+            <td><button id="myid" onclick="abc(this)">/</button></td>
+       </tr>
+       <tr>
+            <td><button id="myid1" onclick="abc(this)">7</button></td>
+            <td><button id="myid1" onclick="abc(this)">8</button></td>
+            <td><button id="myid1" onclick="abc(this)">9</button></td>
+            <td><button id="myid" onclick="abc(this)">*</button></td>
+      </tr>
+      <tr>
+          <td><button id="myid1" onclick="abc(this)">4</button></td>
+          <td><button id="myid1" onclick="abc(this)">5</button></td>
+          <td><button id="myid1" onclick="abc(this)">6</button></td>
+          <td><button id="myid" onclick="abc(this)">-</button></td>
+      </tr>
+     <tr>
+          <td><button id="myid1" onclick="abc(this)">1</button></td>
+          <td><button id="myid1" onclick="abc(this)">2</button></td>
+          <td><button id="myid1" onclick="abc(this)">3</button></td>
+          <td><button id="myid" onclick="abc(this)">+</button></td>
+      </tr>
+      <tr>
+          <td colspan="2"><button id="myid1" onclick="abc(this)">0</button></td>
+          <td><button id="myid" onclick="abc(this)">.</button></td>
+          <td><button id="myid" onclick="abc(this)">=</button></td>
+      </tr>
+        
+        
+    </table>
+    <script type="text/javascript" src="js/index.js"></script>
+    </body >
+</html>

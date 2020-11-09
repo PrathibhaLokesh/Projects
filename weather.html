@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>weather app</title>
+    </head>
+    <script>
+        function abc()
+        {
+            var x=document.getElementById("id1").value;
+            window.location.href="https://samples.openweathermap.org/data/2.5/weather?q="+x+"&mode=html&appid=75937c48573aac0eabdca87aff67b60c"
+        }
+    </script>
+    <body>
+        <input placeholder="Enter city name to search" type="text"><br><br>
+        <button onclick="abc()">Get Weather</button>
+    </body>
+</html>
